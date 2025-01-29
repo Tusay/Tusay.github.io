@@ -2135,6 +2135,10 @@ input, select, textarea {
 				width: 100%;
 			}
 
+			.image.fit half {
+				width: 50%;
+			}
+
 		.image.avatar {
 			border-radius: 100%;
 		}
