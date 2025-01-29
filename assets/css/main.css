@@ -2125,6 +2125,16 @@ input, select, textarea {
 				width: 100%;
 			}
 
+		.image.thumb {
+			display: block;
+			margin: 0 0 2em 0;
+			width: 50%;
+		}
+
+			.image.thumb img {
+				width: 50%;
+			}
+
 		.image.fit {
 			display: block;
 			margin: 0 0 2em 0;
@@ -2133,10 +2143,6 @@ input, select, textarea {
 
 			.image.fit img {
 				width: 100%;
-			}
-
-			.image.fit half {
-				width: 50%;
 			}
 
 		.image.avatar {
