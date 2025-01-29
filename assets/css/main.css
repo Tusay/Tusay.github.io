@@ -2657,11 +2657,15 @@ input, select, textarea {
 		#header .image.avatar {
 			margin: 0 0 1em 0;
 			width: 6.25em;
+			position: relative; /* Added to position avatar2 relative to this */
 		}
 
 		#header .image.avatar2 {
-			margin: 0 1em 0 0;
-			width: 6.25em;
+			/** Adjusted position to be bottom-left of avatar **/
+			position: absolute; /* Added */
+			bottom: 0; /* Align to bottom */
+			left: -1.5em; /* Adjust position to be to the left */
+			width: 4.5em; /* Adjusted size if needed */
 		}
 
 /* Footer */
