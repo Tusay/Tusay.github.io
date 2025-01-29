@@ -2149,6 +2149,19 @@ input, select, textarea {
 				width: 100%;
 			}
 
+		.image.avatar2 {
+			border-radius: 100%;
+		}
+
+			.image.avatar2:before {
+				display: none;
+			}
+
+			.image.avatar2 img {
+				border-radius: 100%;
+				width: 100%;
+			}
+
 /* List */
 
 	ol {
@@ -2603,7 +2616,7 @@ input, select, textarea {
 		color: rgba(255, 255, 255, 0.5);
 		height: 100%;
 		left: 0;
-		padding: 8em 14em;
+		padding: 8em 4em;
 		position: fixed;
 		text-align: right;
 		top: 0;
@@ -2643,6 +2656,11 @@ input, select, textarea {
 
 		#header .image.avatar {
 			margin: 0 0 1em 0;
+			width: 6.25em;
+		}
+
+		#header .image.avatar2 {
+			margin: 0 1em 0 0;
 			width: 6.25em;
 		}
 
