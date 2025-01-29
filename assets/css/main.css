@@ -2663,9 +2663,9 @@ input, select, textarea {
 		#header .image.avatar2 {
 			/** Adjusted position to be bottom-left of avatar **/
 			position: absolute; /* Added */
-			bottom: 3em; /* Align to bottom */
+			bottom: 5em; /* Align to bottom */
 			left: 2em; /* Adjust position to be to the left */
-			width: 6em; /* Adjusted size if needed */
+			width: 7em; /* Adjusted size if needed */
 		}
 
 /* Footer */
