@@ -2642,10 +2642,17 @@ input, select, textarea {
 
 		#header h1 .title {
 		  color: #ffffff;          /* full white, vs the default rgba(255,255,255,0.5) */
-		  font-style: italic;      /* or font-weight: 600; — pick one or both */
+		  font-style: normal;      /* or font-weight: 600; — pick one or both */
 		  font-size: 1.05em;
 		  display: block;
-		  margin-bottom: 0.8em;
+		  margin-bottom: 0.4em;
+		}
+
+		#header h1 .subtitle {
+		  color: rgba(255, 255, 255, 0.75);  /* slightly dimmer than title */
+		  font-style: italic;
+		  font-size: 0.95em;
+		  display: block;
 		}
 
 		#header strong, #header b {
@@ -2653,7 +2660,8 @@ input, select, textarea {
 		}
 
 		#header h1 strong {
-		  font-size: 1.4em;      /* makes it larger than surrounding h1 text */
+		  font-family: 'Exo 2', sans-serif;
+		  font-size: 1.6em;      /* makes it larger than surrounding h1 text */
 		  font-weight: 700;
 		  letter-spacing: 0.05em;
 		  display: block;        /* puts it on its own line cleanly */
