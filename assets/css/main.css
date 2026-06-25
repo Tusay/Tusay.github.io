@@ -2651,8 +2651,8 @@ input, select, textarea {
 		  color: rgba(255, 255, 255, 0.75);  /* slightly dimmer than title */
 		  font-style: italic;
 		  font-size: 0.95em;
-		  display: block;
-		  margin-bottom: 0.1em;
+		  display: block !important;
+		  margin-bottom: 0.5em;
 		}
 
 		#header strong, #header b {
