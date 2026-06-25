@@ -2652,7 +2652,7 @@ input, select, textarea {
 		  font-style: italic;
 		  font-size: 0.95em;
 		  display: block;
-		  margin-bottom: 0.3em;
+		  margin-bottom: 0.1em;
 		}
 
 		#header strong, #header b {
@@ -2677,7 +2677,7 @@ input, select, textarea {
 			font-size: 1.35em;
 			line-height: 1.75em;
 			margin: 0;
-  			margin-top: -1em;   /* pulls only the text block up, not the avatars */
+  			margin-top: -2em;   /* pulls only the text block up, not the avatars */
 		}
 
 		#header .image.avatar {
