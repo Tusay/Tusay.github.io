@@ -2652,7 +2652,7 @@ input, select, textarea {
 		  font-style: italic;
 		  font-size: 0.95em;
 		  display: block !important;
-		  margin-bottom: 0.5em;
+		  margin-bottom: 0.1em;
 		}
 
 		#header strong, #header b {
