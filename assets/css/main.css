@@ -2630,13 +2630,6 @@ input, select, textarea {
 			flex-shrink: 0;
 			width: 100%;
 		}
-
-		#header h1 {
-		    color: rgba(255, 255, 255, 0.5);
-		    font-size: 1.35em;
-		    line-height: 1.4em;
-		    margin: 0;
-		}
 		
 		#header h1 strong {
 		    font-family: 'Exo 2', sans-serif;
@@ -2644,7 +2637,7 @@ input, select, textarea {
 		    font-weight: 700;
 		    letter-spacing: 0.05em;
 		    display: block;
-		    margin-bottom: 0.05em;
+		    margin-bottom: 0.5em;
 		}
 		
 		#header h1 .title {
@@ -2652,15 +2645,22 @@ input, select, textarea {
 		    font-style: normal;
 		    font-size: 1.05em;
 		    display: block;
-		    margin-bottom: 0em;
+		    margin-bottom: 0.1em;
 		}
 		
 		#header h1 .subtitle {
-		    color: rgba(255, 255, 255, 0.75);
+		    color: #ffffff;
 		    font-style: italic;
 		    font-size: 0.95em;
 		    display: block;
-		    margin-bottom: 0.6em;
+		    margin-bottom: 0.7em;
+		}
+		
+		#header h1 {
+		    color: rgba(255, 255, 255, 0.5);
+		    font-size: 1.35em;
+		    line-height: 1.4em;
+		    margin: 0;
 		}
 		
 		#header > .inner {
